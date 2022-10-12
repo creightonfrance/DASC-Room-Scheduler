@@ -84,7 +84,7 @@ jobs:
       uses: UKnowWhoIm/django-test-action@v0.6.1
       with:
         # The path of the directory containing the settings file(Without `./`)
-        settings-dir-path: dascRoomScheduler/settings.py
+        settings-dir-path: dascRoomScheduler
         # Run tests in parallel
         #parallel-tests: # optional
         # The path of dependancy file, typically requirements.txt
